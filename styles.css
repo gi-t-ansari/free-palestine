@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#black-box {
+    height: 33.3vh;
+    background-color: #000000;
+}
+
+#white-box {
+    height: 33.3vh;
+    background-color: #ffffff;
+   
+
+}
+
+#green-box {
+    height: 33.3vh;
+    background-color: #009639;
+}
+
+#red-triangle {
+    height: 0;
+    width: 0;
+    border-top: 50vh solid transparent;
+    border-bottom: 50vh solid transparent;
+    border-left: 50vh solid #ed2e38;
+    position: absolute;
+    top: 0;
+}
+
+#free-palestine {
+    font-size: 15vh;
+    font-weight: bold;
+    line-height: 33.3vh;
+    position: absolute;
+    right: 5%;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+}
+
+@media (width <= 1025px) and (width > 768px) {
+    #free-palestine {
+        font-size: 4rem;
+    }
+}
+
+@media (width <= 768px) {
+    #free-palestine {
+        font-size: 3rem;
+        letter-spacing: 0.5px;
+        right: 3%;
+    }
+}
+
+@media (width <= 426px) {
+    #black {
+        height: 100%;
+        width: 33.3%;
+        position: absolute;
+        right: 0;
+    }
+
+    #white {
+        height: 100%;
+        width: 33.3%;
+        position: absolute;
+        right: 33.3%;
+    }
+
+    #green {
+        height: 100%;
+        width: 33.3%;
+        position: absolute;
+        left: 0;
+    }
+
+    #red {
+        border-left: 50vw solid transparent;
+        border-right: 50vw solid transparent;
+        border-top: 50vw solid #ed2e38;;
+    }
+
+    #free-palestine  {
+        position: absolute;
+        top: 28%;
+        left: 0%;
+        transform: rotate(90deg);
+        font-size: 2.8rem;
+    }
+}
+
+@media (width <= 376px) {
+    #free-palestine  {
+        top: 25%;
+    }
+}
+
+@media (width <= 326px) {
+    #free-palestine  {
+        top: 20%;
+    }
+}
