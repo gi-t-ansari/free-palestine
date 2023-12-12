@@ -63,28 +63,28 @@
 }
 
 @media (width <= 426px) {
-    #black {
+    #black-box {
         height: 100%;
         width: 33.3%;
         position: absolute;
         right: 0;
     }
 
-    #white {
+    #white-box {
         height: 100%;
         width: 33.3%;
         position: absolute;
         right: 33.3%;
     }
 
-    #green {
+    #green-box {
         height: 100%;
         width: 33.3%;
         position: absolute;
         left: 0;
     }
 
-    #red {
+    #red-triangle {
         border-left: 50vw solid transparent;
         border-right: 50vw solid transparent;
         border-top: 50vw solid #ed2e38;;
